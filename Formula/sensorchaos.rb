@@ -1,13 +1,13 @@
 class Sensorchaos < Formula
   desc "CLI tool for simulating sensor degradation scenarios against mobile apps"
   homepage "https://sensorchaos.com"
-  version "0.1.0"
+  version "0.1.1"
   license "Commercial"
 
   on_macos do
     on_arm do
       url "https://releases.sensorchaos.com/v#{version}/sensorchaos-darwin-arm64.zip"
-      sha256 "PLACEHOLDER_DARWIN_ARM64"
+      sha256 "0c758adde15d53cb8615f64afd06803bb918ebeb61f4e5c840e021e196da149a"
     end
 
     on_intel do
