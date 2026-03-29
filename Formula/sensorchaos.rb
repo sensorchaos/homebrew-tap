@@ -6,19 +6,19 @@ class Sensorchaos < Formula
 
   on_macos do
     on_arm do
-      url "https://releases.sensorchaos.com/v#{version}/sensorchaos-darwin-arm64"
-      sha256 "b5c774c6006ee1443b0df8218be7ac630f975a698f7787993a95050e01b8cc09"
+      url "https://releases.sensorchaos.com/v#{version}/sensorchaos-darwin-arm64.zip"
+      sha256 "PLACEHOLDER_DARWIN_ARM64"
     end
 
     on_intel do
-      url "https://releases.sensorchaos.com/v#{version}/sensorchaos-darwin-x64"
+      url "https://releases.sensorchaos.com/v#{version}/sensorchaos-darwin-x64.zip"
       sha256 "PLACEHOLDER_DARWIN_X64"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://releases.sensorchaos.com/v#{version}/sensorchaos-linux-x64"
+      url "https://releases.sensorchaos.com/v#{version}/sensorchaos-linux-x64.zip"
       sha256 "PLACEHOLDER_LINUX_X64"
     end
   end
