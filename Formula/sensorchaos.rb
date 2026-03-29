@@ -7,7 +7,7 @@ class Sensorchaos < Formula
   on_macos do
     on_arm do
       url "https://releases.sensorchaos.com/v#{version}/sensorchaos-darwin-arm64"
-      sha256 "PLACEHOLDER_DARWIN_ARM64"
+      sha256 "b5c774c6006ee1443b0df8218be7ac630f975a698f7787993a95050e01b8cc09"
     end
 
     on_intel do
